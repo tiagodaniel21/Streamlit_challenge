@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 ##Pagina 0 
 def home_page():
     import streamlit as st
-    import matplotlib.pyplot as plt
     from PIL import Image
 
     logo = Image.open('logo.png')
@@ -141,7 +140,6 @@ def pagina_modalidade():
 def pagina_area_plantio():
     import streamlit as st
     import pandas as pd
-    import matplotlib.pyplot as plt
     import re
     import string
     from wordcloud import WordCloud
